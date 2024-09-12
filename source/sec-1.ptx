@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-Problem-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Problem 1</title>
+
+  
+  <introduction>
+    <p>For <m>\Sigma =\{a,b\}</m>, construct DFA that accept the sets consisting of 
+    </p>
+  </introduction>
+  
+  <em>
+    In all diagrams the node labelled <m>q_{rej}</m> is a reject state for the machine in question.  
+  </em>
+  <ol marker="(a)">
+    <li xml:id="Prob-1-a">
+      <sidebyside widths="35% 60%" margins="auto" valign="middle">
+        <p>
+          All strings with exactly one a
+        </p>
+        <image source="P1A.png">
+          <shortdescription>DFA state diagram.</shortdescription>
+        </image>
+        <![CDATA[[![](https://mermaid.ink/img/pako:eNqNk9tq4zAQhl9lUG3sgFucUOjiQC-WXGZvWujNallka2yrkaVElnvA1buvZJtQSglrEFj_fHOQZjSSSnMkBYnjEYQStoCRKoCklvq1apmxiVcgqQbzgv43qZjtBikfdJeAywJKiW2xwydmBCsl9pQsMXwU5A3uWYnyJ6sOjdGD4j4IJa-tsEhJoBxVDlwcU0VVY9ixhf3DNhh667P_hj9wfX0PpzxNo-j0N4-i1SpYT-t0VtZBWcGkbRZt80kzaUpJEEdKLb7Z0eCzc1FESQgUx75Mr2AVUk0OeUj4EXwoNUz0WOq3Mb_5gZ0bozKaXD88dgm-nWB2htdzyf8Hm0vw3ZcyNvPBL8FfIoclhTo82neJwLFmg7RwZJwL1RT5zeZos_LcrkJphUs_Aj91BWohZXFV53me9dboA86b7XKhMzpf6wUWII5n9GTgbKvv_DdZK8n6fof190VuSUY6NB0T3M_v-GkUwwRSsjiFKXMeZYPVj--qIoU1A2bEn65pSVEz2fvdcOTM4k4wP4LdWUUurDa_5hcyPRT3D931Amk?type=png)](https://mermaid.live/edit#pako:eNqNk9tq4zAQhl9lUG3sgFucUOjiQC-WXGZvWujNallka2yrkaVElnvA1buvZJtQSglrEFj_fHOQZjSSSnMkBYnjEYQStoCRKoCklvq1apmxiVcgqQbzgv43qZjtBikfdJeAywJKiW2xwydmBCsl9pQsMXwU5A3uWYnyJ6sOjdGD4j4IJa-tsEhJoBxVDlwcU0VVY9ixhf3DNhh667P_hj9wfX0PpzxNo-j0N4-i1SpYT-t0VtZBWcGkbRZt80kzaUpJEEdKLb7Z0eCzc1FESQgUx75Mr2AVUk0OeUj4EXwoNUz0WOq3Mb_5gZ0bozKaXD88dgm-nWB2htdzyf8Hm0vw3ZcyNvPBL8FfIoclhTo82neJwLFmg7RwZJwL1RT5zeZos_LcrkJphUs_Aj91BWohZXFV53me9dboA86b7XKhMzpf6wUWII5n9GTgbKvv_DdZK8n6fof190VuSUY6NB0T3M_v-GkUwwRSsjiFKXMeZYPVj--qIoU1A2bEn65pSVEz2fvdcOTM4k4wP4LdWUUurDa_5hcyPRT3D931Amk)]]>
+      </sidebyside>
+    </li>
+    <li xml:id="Prob-1-b">
+      <sidebyside widths="40% 50%" margins="auto" valign="middle">
+        <p>
+          All strings with at least one a
+        </p>
+        <image source="P1B.png">
+          <shortdescription>DFA state diagram.</shortdescription>
+        </image>
+        <!-- [![](https://mermaid.ink/img/pako:eNp9kl9rwjAUxb9KyCpVqNKOwUaFPQwf3YvCXpYxbpvbNpgmmqZzUvvdl7QiY8geArknv3vy56SjueZIUzqZdEQoYVPSMUVIWEh9zCswNnQKCfPWfKGbhjnYupVyo-uQ9JFHGbUV1vgGRkAmsWH04uFckJe4hgzlC-S70uhWcWfC6LESFhn1VM9UT_rJhCmmSgP7iqw3S7_QWLf7O_kg8_kzOcTTaRAcPuMgmM386iGZjkrilRkZtNizZ0aDgDEDosFMf3fx4gnrvguyoHc6PTvsP_hhgOEKJ6N1cpt-HGjGtqKs__b4IYXabe1JIuFYQCst2QPnQpVpvLjf2yi7vkuqtMLLxT0_XJ8UQsr0rojjOGqs0Tsci4HLJTTNCovb1ksa0RpNDYK7eLtfSfmAGL00-RB6h0Jr9fakcppa02JE3ZnKiqYFyMZV7Z6DxZUAl1B9VZELq83r-IGGf9T_AIrevgA?type=png)](https://mermaid.live/edit#pako:eNp9kl9rwjAUxb9KyCpVqNKOwUaFPQwf3YvCXpYxbpvbNpgmmqZzUvvdl7QiY8geArknv3vy56SjueZIUzqZdEQoYVPSMUVIWEh9zCswNnQKCfPWfKGbhjnYupVyo-uQ9JFHGbUV1vgGRkAmsWH04uFckJe4hgzlC-S70uhWcWfC6LESFhn1VM9UT_rJhCmmSgP7iqw3S7_QWLf7O_kg8_kzOcTTaRAcPuMgmM386iGZjkrilRkZtNizZ0aDgDEDosFMf3fx4gnrvguyoHc6PTvsP_hhgOEKJ6N1cpt-HGjGtqKs__b4IYXabe1JIuFYQCst2QPnQpVpvLjf2yi7vkuqtMLLxT0_XJ8UQsr0rojjOGqs0Tsci4HLJTTNCovb1ksa0RpNDYK7eLtfSfmAGL00-RB6h0Jr9fakcppa02JE3ZnKiqYFyMZV7Z6DxZUAl1B9VZELq83r-IGGf9T_AIrevgA) -->
+      </sidebyside>
+    </li>
+    <li>
+      <sidebyside widths="30% 65%" margins="auto" valign="middle">
+        <p>
+          All strings with no more than three a’s
+        </p>
+        <image source="P1C.png">
+          <shortdescription>DFA state diagram.</shortdescription>
+        </image>
+        <!-- [![](https://mermaid.ink/img/pako:eNqNk81q4zAUhV9FqA52wC120sXgwCyGLttNC91UpcjWta2JLKWy3B9cvXsl2YQQSpqFQffo3O8K-WjElWKAC7xYjIhLbgo0EolQXAv1XrVUm9gpKK4G_QZuGVfUdIMQ96qLkU29lWDTQgePVHNaCugJnhmOAqyBW1qC-EerbaPVIJmDEPzecgMEe5cl0iK7WBBJZKPprkW39xu_0Rs3_Qk9-_VrliRJFL2-ZFG0XC6DlM9SHiQUtNWsrQ609aytDzSdJAR7cSTEwIcZNfy3NooInuBhNrq8_OsmT_N98eV7CNGU91CqjzG7-gOdHaMyCq1fv5ivg5nuzfl0lvw8dH7KfIxeTbdxHvmk-Zi8nu70PPJJ8zFZhzC5T3C5fTCfAhCDmg7CoB1ljMumyK5WO5OW-ywVUkmYw-L902-ruRDFRZ1lWdobrbYwFcFXCdr3N1D_jN7gFHegO8qZexLjQbp9qAmem3xwrbPSwaiHT1nhwugBUuzO1LS4qKnoXTXsGDVww6lLdbdXgXGj9N306MLbs98BhRkf?type=png)](https://mermaid.live/edit#pako:eNqNk81q4zAUhV9FqA52wC120sXgwCyGLttNC91UpcjWta2JLKWy3B9cvXsl2YQQSpqFQffo3O8K-WjElWKAC7xYjIhLbgo0EolQXAv1XrVUm9gpKK4G_QZuGVfUdIMQ96qLkU29lWDTQgePVHNaCugJnhmOAqyBW1qC-EerbaPVIJmDEPzecgMEe5cl0iK7WBBJZKPprkW39xu_0Rs3_Qk9-_VrliRJFL2-ZFG0XC6DlM9SHiQUtNWsrQ609aytDzSdJAR7cSTEwIcZNfy3NooInuBhNrq8_OsmT_N98eV7CNGU91CqjzG7-gOdHaMyCq1fv5ivg5nuzfl0lvw8dH7KfIxeTbdxHvmk-Zi8nu70PPJJ8zFZhzC5T3C5fTCfAhCDmg7CoB1ljMumyK5WO5OW-ywVUkmYw-L902-ruRDFRZ1lWdobrbYwFcFXCdr3N1D_jN7gFHegO8qZexLjQbp9qAmem3xwrbPSwaiHT1nhwugBUuzO1LS4qKnoXTXsGDVww6lLdbdXgXGj9N306MLbs98BhRkf) -->
+      </sidebyside>
+    </li>
+    <li>
+      <sidebyside widths="30% 65%" margins="auto" valign="middle">
+        <p>
+          All strings with at least one a and exactly two b’s
+        </p>
+        <image source="P1D.png">
+          <shortdescription>DFA state diagram.</shortdescription>
+        </image>
+        <![CDATA[[![](https://mermaid.ink/img/pako:eNptk99PgzAQx_-VprKwJWiIj5iYbPFRXzTxxRpzbQ-oK2UrxR9h_O-2sDGMPpD0e_fpl7v22lFRS6QZXSw6ooxyGemYISTOdf0pSrAu9hESi9Z-oF_GAlzVav1YVzHpk4Ay6kqs8BmsAq6xYfTo4V1QFngPHPUGxLawdWukN2H0s1QOGQ1Uz0xP-sWCGWYKC7uS3D_ehETj_N9fyGtY79PlMor2b2kUrVYhAMsloyHSMSZKFFsCfRQxulqRkOYjzgM-BDZ_eD7n1_yv32_AGwyWebAcY3s72-Twy3UW3_vjrqkDcnl56-sfTmroJAQOcCAwk_xA-FDmKbnenKVP7u1YxL96wvkk-Vl6ejO2eJLruZ5omNIzeSozfFqZ7ZP71kgk5tBqR3YgpTJFll5d71zCpyvOTG3weIeBH88hV1pnF3mapknjbL3FUQyc0NA0d5j_b31DE1qhrUBJP6ndbOjCrDF63BTmqfcotK5--jaCZs62mFBfU1HSLAfdeNXuJDi8U-CHrZqiKJWr7cP4FoYn0f8AVKD0eQ?type=png)](https://mermaid.live/edit#pako:eNptk99PgzAQx_-VprKwJWiIj5iYbPFRXzTxxRpzbQ-oK2UrxR9h_O-2sDGMPpD0e_fpl7v22lFRS6QZXSw6ooxyGemYISTOdf0pSrAu9hESi9Z-oF_GAlzVav1YVzHpk4Ay6kqs8BmsAq6xYfTo4V1QFngPHPUGxLawdWukN2H0s1QOGQ1Uz0xP-sWCGWYKC7uS3D_ehETj_N9fyGtY79PlMor2b2kUrVYhAMsloyHSMSZKFFsCfRQxulqRkOYjzgM-BDZ_eD7n1_yv32_AGwyWebAcY3s72-Twy3UW3_vjrqkDcnl56-sfTmroJAQOcCAwk_xA-FDmKbnenKVP7u1YxL96wvkk-Vl6ejO2eJLruZ5omNIzeSozfFqZ7ZP71kgk5tBqR3YgpTJFll5d71zCpyvOTG3weIeBH88hV1pnF3mapknjbL3FUQyc0NA0d5j_b31DE1qhrUBJP6ndbOjCrDF63BTmqfcotK5--jaCZs62mFBfU1HSLAfdeNXuJDi8U-CHrZqiKJWr7cP4FoYn0f8AVKD0eQ)]]>
+      </sidebyside>
+    </li>
+    <li>
+      <sidebyside widths="30% 65%" margins="auto" valign="middle">
+        <p>
+          All the strings with exactly two a’s and more than two b’s
+        </p>
+        <image source="P1e.png">
+          <shortdescription>DFA state diagram.</shortdescription>
+        </image>
+        <!-- [![](https://mermaid.ink/img/pako:eNptVE1vnDAQ_SuWy2q3EolQj0SKBMoxvSRST5aqMQwfXWN2jWkasfz32nx4vWRP8Gbeex7PaDzQrM2RxnS3G0gtax2TgUlC9oVoP7IKlN6bCNlnvfqL5nefgW56Id7aZk_G0FIZ1RU2-AtUDVxgx-jiYVwwL_EVOIoUsmOp2l7mxoTRj6rWyKhljUyOZNztmGSyVHCqyOvbk0102px-YPSR0e8Wn9XBoCA4_x4Y0_hPDwr_jGMQmPxMiA4Hm46CYA7wGXOLyRTgzoLzRTklUs86qzA7kps0XHWwSfiZW0v46gk-IfG0K2Pjkdxj3BBM4dMdC3vHpaY5Au7W8LWSm0Jcs8nDw7Pp4hwxXwMvcCHgQX4hfOqkQx60XD63ZcXJhNMVpnCFRpzOQ7mKfTX3Ai4yGwD3DuCeyeqZgsv72Bkkjr7oE1fiWS3DuR_gq2WSbvBG4CoAuELuOgQbNlwLWmcianl8158CSY4F9EKTE-R5Lcs4evxx0iF3OxXLVuKyNJY_T7OohYi_FVEUhZ1W7REXkLWiVfG0gpMmE9B1L1jcP-aJhrRB1UCdm2di8DbeLjqji8gu82io0Ov2_VNmNNaqx5Ca-sqKxgWIzqD-lIPGlxrMpjcuinmtW_Vzfoim92j8Dw2zYdc?type=png)](https://mermaid.live/edit#pako:eNptVE1vnDAQ_SuWy2q3EolQj0SKBMoxvSRST5aqMQwfXWN2jWkasfz32nx4vWRP8Gbeex7PaDzQrM2RxnS3G0gtax2TgUlC9oVoP7IKlN6bCNlnvfqL5nefgW56Id7aZk_G0FIZ1RU2-AtUDVxgx-jiYVwwL_EVOIoUsmOp2l7mxoTRj6rWyKhljUyOZNztmGSyVHCqyOvbk0102px-YPSR0e8Wn9XBoCA4_x4Y0_hPDwr_jGMQmPxMiA4Hm46CYA7wGXOLyRTgzoLzRTklUs86qzA7kps0XHWwSfiZW0v46gk-IfG0K2Pjkdxj3BBM4dMdC3vHpaY5Au7W8LWSm0Jcs8nDw7Pp4hwxXwMvcCHgQX4hfOqkQx60XD63ZcXJhNMVpnCFRpzOQ7mKfTX3Ai4yGwD3DuCeyeqZgsv72Bkkjr7oE1fiWS3DuR_gq2WSbvBG4CoAuELuOgQbNlwLWmcianl8158CSY4F9EKTE-R5Lcs4evxx0iF3OxXLVuKyNJY_T7OohYi_FVEUhZ1W7REXkLWiVfG0gpMmE9B1L1jcP-aJhrRB1UCdm2di8DbeLjqji8gu82io0Ov2_VNmNNaqx5Ca-sqKxgWIzqD-lIPGlxrMpjcuinmtW_Vzfoim92j8Dw2zYdc) -->
+      </sidebyside>
+    </li>
+  </ol>
+
+  <!-- include sections -->
+  <!-- <xi:include href="sec-section-name.ptx" /> -->
+
+</section>

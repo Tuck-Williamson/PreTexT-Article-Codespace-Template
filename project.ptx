@@ -2,7 +2,7 @@
 <!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
+    <target name="print" format="pdf" output-filename="618-F2024-HW1-Tuck Williamson.pdf" output-dir="../"/>
     <target name="web" format="html" />
-    <target name="print" format="pdf" />
   </targets>
 </project>

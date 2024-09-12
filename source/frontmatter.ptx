@@ -6,16 +6,17 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Tuck Williamson</personname>
+      <!--<department>Your department</department>
+      <institution>Your institution</institution>-->
     </author>
     <date>
-      <today />
+      September <m>8^{\text{th}}</m>
+      <!-- <today /> -->
     </date>
   </titlepage>
 
-  <colophon>
+  <!--<colophon>
 
     <website>
       <url href="https://pretextbook.org">My Website</url>
@@ -27,6 +28,6 @@
       <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
       </shortlicense>
     </copyright>
-  </colophon>
+  </colophon>-->
 </frontmatter>
 

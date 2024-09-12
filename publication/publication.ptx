@@ -11,7 +11,7 @@
     <!-- Level at which are html files generated (chapter/section/etc): -->
     <chunking level="2" />
     <!-- Depth for table of contents.  0 means no TOC -->
-    <tableofcontents level="2" />
+    <tableofcontents level="0" />
     <!-- Visibility of exercise components where they first appear.          -->
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
@@ -60,9 +60,11 @@
   <!-- for printing; set @sides="two" if the printing woudl be two- -->
   <!-- sided.  @pageref="yes/no" controls whether page number are   -->
   <!-- included in cross-references                                 -->
-  <latex print="no" sides="one" font-size="10" draft="no">
+  <latex print="no" sides="one" font-size="12" draft="no">
     <!-- Control text justification and bottom page behavior: -->
-    <page right-alignment="flush" bottom-alignment="ragged" />
+    <page right-alignment="flush" bottom-alignment="ragged">
+      <geometry>letterpaper,margin=0.5in</geometry>
+    </page>
     <!-- Add content to \geometry{}: -->
     <!-- <geometry></geometry> -->
     <!-- The asymptote/@links set to "yes" would produce  -->

@@ -1,6 +1,7 @@
-# PreTeXt Codespace
+# PreTeXt Codespace for an Article
 
 Use this template repository to quickly start a new [PreTeXt](https://pretextbook.org) project entirely in the cloud, using GitHub Codespaces.  
+It differs from the original template repo mostly in that it is modified for an Article template.
 
 ## Instructions
 
